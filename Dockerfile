@@ -23,7 +23,7 @@ EXPOSE 8080
 RUN pwd
 
 # Copy war file to tomcat server
-COPY ecommerecewithdocker/target/*.war $CATALINA_HOME/webapps/ 
+COPY target/*.war $CATALINA_HOME/webapps/ 
 
 # Start Tomcat server
 CMD ["catalina.sh", "run"]
