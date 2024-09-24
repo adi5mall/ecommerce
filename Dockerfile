@@ -21,7 +21,7 @@ RUN curl -O https://dlcdn.apache.org/tomcat/tomcat-10/v${TOMCAT_VERSION}/bin/apa
 EXPOSE 8080
 
 # Copy war file to tomcat server
-COPY ecommerecewithdocker/target/my-ecommerce-website-1.0-SNAPSHOT.war $CATALINA_HOME/webapps/ 
+COPY ecommerecewithdocker/target/*.war $CATALINA_HOME/webapps/ 
 
 # Start Tomcat server
 CMD ["catalina.sh", "run"]
