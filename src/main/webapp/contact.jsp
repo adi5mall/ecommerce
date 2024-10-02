@@ -13,7 +13,7 @@
     </div>
     <div class="container">
         <h1>Contact Us</h1>
-        <p>Email: contactus@gmail.com</p>
+        <p>Email: contactus123@gmail.com</p>
         <p>Phone: 9405540360</p>
     </div>
 </body>
