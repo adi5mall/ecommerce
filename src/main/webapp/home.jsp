@@ -12,7 +12,7 @@
         <a href="index.jsp">Logout</a>
     </div>
     <div class="container">
-        <h1>Welcome to the Home Page!</h1>
+        <h1>Welcome to the Home Page,Hi from kubernetes!</h1>
     </div>
 </body>
 </html>
